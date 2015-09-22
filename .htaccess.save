@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^avt\.io/http://avt.io/burlington-city-council-oct-6-2014-part-1/$ [NC]
+RewriteRule ^(.*)$ http://example.com/$1 [R=301,L]

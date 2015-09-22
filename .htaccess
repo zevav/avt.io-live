@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^avt\.io/burlington-city-council-oct-6-2014-part-1/$ [NC]
+RewriteRule ^(.*)$ http://btvcc.avt\.io/burlington-city-council-oct-6-2014-part-1/$1 [R=301,L]
+
+AddType video/mp4 .mp4 .m4v
+AddType video/ogg .ogv
+AddType video/webm .webm
