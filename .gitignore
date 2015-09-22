@@ -1,0 +1,6 @@
+.htaccess
+.DS_Store
+.viminfo
+.bash_history
+.htaccess*
+.cache/
